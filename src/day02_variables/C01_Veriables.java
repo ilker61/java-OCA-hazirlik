@@ -1,5 +1,7 @@
 package day02_variables;
 
+import java.util.Scanner;
+
 public class C01_Veriables {
     public static void main(String[] args) {
         System.out.println("Hallo word yazdirana ne mutlu");
@@ -22,6 +24,17 @@ public class C01_Veriables {
         // atamalari yapilir.
 
         int lev=20, yas=98, bas=780;  // seklinde de yapililir.
+
+        // Kullanicidan ismini al ve ismin ilk harfini yazdir
+
+        Scanner scanner=new Scanner(System.in);
+
+        System.out.println("Ismini gir");
+        char isim=scanner.next().charAt(0);
+        System.out.println(isim);
+
+
+
 
 
     }

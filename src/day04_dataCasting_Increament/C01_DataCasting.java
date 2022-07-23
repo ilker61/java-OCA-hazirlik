@@ -16,5 +16,6 @@ public class C01_DataCasting {
        int sayi5= (int) (sayi3/sayi4);  // ExplicitNarrowing
 
         System.out.println();
+
     }
 }
